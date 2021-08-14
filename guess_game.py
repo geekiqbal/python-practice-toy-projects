@@ -13,7 +13,7 @@ while 1:    #start of the infinit loop. user can break it by pressing -1
    guess = input('Guess a number from 1 to 10. Press -1 to exit:\n')   #taking user input for guessing
    
    try:
-      guess = int(guess)     #invalid input exception handling block
+      guess = int(guess)     #invalid input exception handling block to make the program robust
 
    except:
       print('You have made an invalid choice. \n')
